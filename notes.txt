@@ -1,0 +1,12 @@
+Longitude and latitude are displayed according to the datum selected in the GNSS device (usually: WGS-84). This option can be polled and set using the UBX-CFG-DAT message.
+
+UBX-CFG-DAT (Receiver Datum)
+
+C.1 Predefined Datum
+The following, predefined datum values are available up to firmware version 6.02 and can be configured using the CFG-DAT message. The use of these standard datums is deprecated and is not supported anymore starting with firmware version 7.01. Instead, the other variant of the CFG-DAT message must be used, where the parameters are set directly by the user.
+
+GLL ID: 0xF0 0x01
+
+Read stream: 0xFF
+
+"°"
